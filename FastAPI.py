@@ -4,9 +4,9 @@ import mysql.connector
 
 # Criação da conexão com o banco de dados
 db_connection = mysql.connector.connect(
-    host="senai114.mysql.database.azure.com",
-    user="gabriel",
-    password="senai114@",
+    host="senai-dp900.mysql.database.azure.com",
+    user="alisson",
+    password="banco123@",
     database="Loja"
 )
 db_cursor = db_connection.cursor()
